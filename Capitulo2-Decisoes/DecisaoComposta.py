@@ -1,9 +1,13 @@
 nome=input("Digite o nome: ")
 idade=int(input("Digite a idade: "))
 doenca_infectocontagiosa=input("Suspeita de doença infecto-contagiosa?").upper()
-if idade>=65:
-    print("O paciente " + nome + " possui atendimento prioritario!")
-elif doenca_infectocontagiosa=="SIM":
-    print("O paciente " + nome + " deve ser direcionado para a sala de espera reservada.")
+if idade>=65 and doenca_infectocontagiosa=="SIM":
+    print("O paciente será direcionado a sala Amarela - COM prioridade")
+elif idade < 65 and doenca_infectocontagiosa=="SIM":
+    print("O paciente deve ser direcionado para a sala Amarela - SEM prioridade.")
+elif idade >=65 and doenca_infectocontagiosa=="NAO":
+    print("O paciente será direcionado para a sala Branca - COM prioridade ")
+elif idade <65 and doenca_infectocontagiosa=="NAO":
+    print("O paciente será direcionado para a sala Branca - SEM prioridade")
 else:
-    print("O paciente" + nome + " NÂO possui atendimento prioritário e pode aguardar na sala comum ")
+    print("Responda a suspeita de doença infectocontagiosa com SIM ou NAO")
