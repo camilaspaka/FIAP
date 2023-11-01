@@ -3,9 +3,9 @@ idade=int(input("Digite a idade: "))
 doenca_infectocontagiosa=input("Suspeita de doença infectocontagiosa?").upper()
 if idade>=65:
     print("Paciente COM prioridade")
-    if doenca_infectocontagiosa=="SIM"
+    if doenca_infectocontagiosa=="SIM":
         print("Encaminhe o paciente para a sala Amarela")
-    elif doenca_infectocontagiosa=="NAO"
+    elif doenca_infectocontagiosa=="NAO":
         print("Encaminhe o paciente para a sala Branca")
     else:
         print("Resposta a suspeita de doença infectocontagiosa com SIM ou NAO")
