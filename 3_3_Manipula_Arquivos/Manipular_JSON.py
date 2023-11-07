@@ -22,4 +22,4 @@ while opcao>0 and opcao<3:
                 	print("Data.........: ", dado[0])
                 	print("Descrição....: ", dado[1])
                 	print("Departamento.: ", dado[2])
-    opcao = int(input("Digite: "<1> para registrar ativo" "<2> para exibir ativos armazenados: "))
+    opcao = int(input("Digite: "<1> para registrar ativo(" "  " ")<2> para exibir ativos armazenados: "))
