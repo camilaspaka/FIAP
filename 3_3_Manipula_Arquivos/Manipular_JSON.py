@@ -1,6 +1,10 @@
 import json
-with open("inventario_json.json", "r") as arq_json:
-    inventario = json.load(arq_json)
+import os
+if os.path.exists("inventario_json.json"):
+    with open("inventario_json.json", "r") as arq_json:
+        inventario = json.load(arq_json)
+else:
+    inventario={}
 opcao=int(input("Digite: <1> para registrar ativo"
                       "<2> para exibir ativos armazenados: "))
 while opcao>0 and opcao<3:
