@@ -1,6 +1,6 @@
-from  import *
+from Funcoes.Funcoes_Arquivos import *
 inventario={}
-opcao=chamarMenu()Funcoes.Funcoes_Arquivos
+opcao=chamarMenu()
 while opcao>0 and opcao<4:
     if opcao==1:
         registrar(inventario)
