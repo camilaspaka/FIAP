@@ -1,11 +1,8 @@
 def chamarMenu():
     escolha = int(input("Digite: "
-                      "
-<1> para registrar ativo"
-                      "
-<2> para persistir em arquivo"
-                      "
-<3> para exibir ativos armazenados: "))
+                      "<1> para registrar ativo"
+                      "<2> para persistir em arquivo"
+                      "<3> para exibir ativos armazenados: "))
     return escolha
 
 def registrar(dicionario):
@@ -21,8 +18,7 @@ def persistir(dicionario):
     with open("inventario.csv", "a") as inv:
         for chave, valor in dicionario.items():
             inv.write(chave + ";" + valor[0] + ";" +
-					valor[1] + ";" +valor[2]+"
-")
+					valor[1] + ";" +valor[2]+" ")
     return "Persistido com sucesso"
 
 def exibir():
