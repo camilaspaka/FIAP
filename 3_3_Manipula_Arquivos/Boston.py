@@ -19,4 +19,3 @@ with open("economic-indicators .csv","r") as boston:
     print("O total de voos é: ", total_voos)
     print("O mês/ano de maior movimento no aeroporto foi: ", str(mes),"/",str(ano))
     print("O total de passageiros do ano ", ano_usuario, "foi de ", total_passageiros)
-    print("O mês do ano ", ano_usuario,"com maior média para diária de hotel foi ", mes_maior_diaria)
