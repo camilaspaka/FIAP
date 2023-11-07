@@ -1,4 +1,11 @@
-import Capitulo4_Dicionarios.Funcoes
+import Capitulo4
+
+
+class Dicionarios:
+    pass
+
+
+-Dicionarios.Funcoes
 usuarios={}
 
 opcao=perguntar()
