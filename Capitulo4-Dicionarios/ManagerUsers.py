@@ -1,5 +1,4 @@
-import Capitulo4
-
+from Funcoes.Funcoes_Dicionarios import *
 
 class Dicionarios:
     pass
