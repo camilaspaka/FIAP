@@ -1,4 +1,4 @@
-from Funcoes.Funcoes_Arquivos import *
+import Funcoes.Funcoes_Arquivos
 inventario={}
 opcao=chamarMenu()
 while opcao>0 and opcao<4:
