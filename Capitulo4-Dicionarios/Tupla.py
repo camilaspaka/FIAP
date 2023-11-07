@@ -7,3 +7,9 @@ while resp=="S":
     print("Exibindo ip´s: ")
     for ip in ips.keys():
         print(ip[0] + "." + ip[1])
+        print("Exibindo máquinas com o mesmo endereço: ")
+        pesquisa = input("Digite os dois últimos octetos: ")
+        for ip, nome in ips.items():
+            print("Máquinas no mesmo endereço (redes diferentes)")
+            if (ip[1] == pesquisa):
+                print(nome)
