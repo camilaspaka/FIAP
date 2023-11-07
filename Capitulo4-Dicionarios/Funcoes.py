@@ -1,12 +1,7 @@
 def perguntar():
-    resposta = input("O que deseja realizar?
-" +
-                  "<I> - Para Inserir um usuário
-" +
-                  "<P> - Para Pesquisar um usuário
-" +
-                  "<E> - Para Excluir um usuário
-" +
+    resposta = input("O que deseja realizar?" +
+                  "<I> - Para Inserir um usuário" +
+                  "<E> - Para Excluir um usuário" +
                   "<L> - Para Listar um usuário: ").upper()
     return resposta
 
