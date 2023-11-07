@@ -2,10 +2,8 @@ import json
 import os
 def chamarMenu():
     escolha = int(input("Digite: "
-                      "
-<1> para registrar ativo"
-                      "
-<2> para exibir ativos armazenados: "))
+                      "<1> para registrar ativo"
+                      "<2> para exibir ativos armazenados: "))
     return escolha
 
 def ler_arquivo(arquivo):
