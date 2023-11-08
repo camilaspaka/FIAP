@@ -1,12 +1,4 @@
-usuarios={}
-
-usuarios={"Ana":["Ana Silva","17/06/1975","RH"],
-"Jose":["Jose Flores","03/06/1976","Financeiro"],
-"Ana":["Ana Silva","03/06/1976","RH"]
-          }
-
-usuarios["Ana"]=["Ana Souza", "03/06/1976", "RH"]
-
-usuarios["Florinda"]=["Florinda Flores", "26/11/2016", "Recepcionista"]
-
-print(usuarios)
+tupla = list(enumerate(emails))
+for chave in range(0,len(tupla)):
+print("Email: ", tupla[chave][1])
+usuarios[tupla[chave]]=[input("Digite o nome"), input("Digite o nível")]
