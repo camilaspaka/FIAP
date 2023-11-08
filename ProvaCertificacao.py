@@ -1,4 +1,19 @@
-tupla = list(enumerate(emails))
-for chave in range(0,len(tupla)):
-print("Email: ", tupla[chave][1])
-usuarios[tupla[chave]]=[input("Digite o nome"), input("Digite o nível")]
+from Capitulo3_Funcoes.IdentificacaoDeFuncoes import *
+
+minhaLista=[]
+print("Preenchendo")
+preencherInventario(minhaLista)
+print("Exibindo")
+exibirInventario(minhaLista)
+
+print("Pesquisando")
+localizarPorNome(minhaLista)
+print("Alterando")
+depreciarPorNome(minhaLista, 20)
+
+print("Excluindo")
+print(excluirPorSerial(minhaLista))
+exibirInventario(minhaLista)
+
+print("Resumindo")
+resumirValores(minhaLista)
