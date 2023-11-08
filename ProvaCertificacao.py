@@ -1,8 +1,12 @@
-nome="Python"
-empresa='FIAP'
-qtde_funcionarios=100
-mediaMensalidade=1050.5
+usuarios={}
 
-total = qtde_funcionarios + mediaMensalidade
+usuarios={"Ana":["Ana Silva","17/06/1975","RH"],
+"Jose":["Jose Flores","03/06/1976","Financeiro"],
+"Ana":["Ana Silva","03/06/1976","RH"]
+          }
 
-print(total + qtde_funcionarios + nome)
+usuarios["Ana"]=["Ana Souza", "03/06/1976", "RH"]
+
+usuarios["Florinda"]=["Florinda Flores", "26/11/2016", "Recepcionista"]
+
+print(usuarios)
