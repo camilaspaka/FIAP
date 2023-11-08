@@ -1,9 +1,8 @@
-E={}
+nome="Python"
+empresa='FIAP'
+qtde_funcionarios=100
+mediaMensalidade=1050.5
 
-A=input("Digite o login: ").upper()
+total = qtde_funcionarios + mediaMensalidade
 
-B=input("Digite o nome: ").upper()
-
-C=input("Digite a última data de acesso: ")
-
-D=input("Qual a última estação acessada: ").upper()
+print(total + qtde_funcionarios + nome)
